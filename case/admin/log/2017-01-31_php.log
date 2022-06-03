@@ -1,0 +1,39 @@
+[31-Jan-2017 21:49:53] PHP Fatal error:  Uncaught exception 'Image_Barcode2_Exception' with message 'Invalid barcode' in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php:142
+Stack trace:
+#0 /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2.php(141): Image_Barcode2_Driver_Ean13->validate()
+#1 /var/www/html/tests/case/admin/index.php(295): Image_Barcode2::draw('12346516', 'ean13', 'png', false)
+#2 {main}
+  thrown in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php on line 142
+[31-Jan-2017 21:52:20] PHP Fatal error:  Uncaught exception 'Image_Barcode2_Exception' with message 'Invalid barcode' in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php:142
+Stack trace:
+#0 /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2.php(141): Image_Barcode2_Driver_Ean13->validate()
+#1 /var/www/html/tests/case/admin/index.php(295): Image_Barcode2::draw('12345678912', 'ean13', 'png', false)
+#2 {main}
+  thrown in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php on line 142
+[31-Jan-2017 21:52:33] PHP Fatal error:  Uncaught exception 'Image_Barcode2_Exception' with message 'Invalid barcode' in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php:142
+Stack trace:
+#0 /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2.php(141): Image_Barcode2_Driver_Ean13->validate()
+#1 /var/www/html/tests/case/admin/index.php(295): Image_Barcode2::draw('12345678912', 'ean13', 'png', false)
+#2 {main}
+  thrown in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php on line 142
+[31-Jan-2017 21:53:30] PHP Fatal error:  Uncaught exception 'Image_Barcode2_Exception' with message 'Invalid barcode' in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php:142
+Stack trace:
+#0 /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2.php(141): Image_Barcode2_Driver_Ean13->validate()
+#1 /var/www/html/tests/case/admin/index.php(296): Image_Barcode2::draw('12345678912', 'ean13', 'png', false)
+#2 {main}
+  thrown in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php on line 142
+[31-Jan-2017 21:57:22] PHP Fatal error:  Uncaught exception 'Image_Barcode2_Exception' with message 'Invalid barcode' in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php:142
+Stack trace:
+#0 /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2.php(141): Image_Barcode2_Driver_Ean13->validate()
+#1 /var/www/html/tests/case/admin/index.php(303): Image_Barcode2::draw('1234560014', 'ean13', 'png', false)
+#2 {main}
+  thrown in /var/www/html/tests/case/admin/pear/PEAR/Image/Barcode2/Driver/Ean13.php on line 142
+[31-Jan-2017 22:07:08] PHP Warning:  Division by zero in /var/www/html/tests/case/admin/index.php on line 235
+[31-Jan-2017 22:07:08] PHP Warning:  fopen(gs_list.html): failed to open stream: No such file or directory in /var/www/html/tests/case/inc/htmltemplate.inc on line 379
+[31-Jan-2017 22:07:08] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/tests/case/inc/htmltemplate.inc on line 382
+[31-Jan-2017 22:08:26] PHP Warning:  fopen(gs_list.html): failed to open stream: No such file or directory in /var/www/html/tests/case/inc/htmltemplate.inc on line 379
+[31-Jan-2017 22:08:26] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/tests/case/inc/htmltemplate.inc on line 382
+[31-Jan-2017 22:27:50] PHP Warning:  fopen(setup.html): failed to open stream: No such file or directory in /var/www/html/tests/case/inc/htmltemplate.inc on line 379
+[31-Jan-2017 22:27:50] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/tests/case/inc/htmltemplate.inc on line 382
+[31-Jan-2017 22:38:08] PHP Warning:  fopen(jan_list.html): failed to open stream: No such file or directory in /var/www/html/tests/case/inc/htmltemplate.inc on line 379
+[31-Jan-2017 22:38:08] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/tests/case/inc/htmltemplate.inc on line 382

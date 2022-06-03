@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>事業者コード登録</title>
+	<meta name="description" content="Bootstrap Metro Dashboard">
+	<meta name="author" content="Dennis Ji">
+	<meta name="keyword" content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- end: Mobile Specific -->
+	
+	<!-- start: CSS -->
+	<link id="bootstrap-style" href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link id="base-style" href="css/style.css" rel="stylesheet">
+	<link id="base-style-responsive" href="css/style-responsive.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+	<!-- end: CSS -->
+	
+
+	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<link id="ie-style" href="css/ie.css" rel="stylesheet">
+	<![endif]-->
+	
+	<!--[if IE 9]>
+		<link id="ie9style" href="css/ie9.css" rel="stylesheet">
+	<![endif]-->
+		
+	<!-- start: Favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- end: Favicon -->
+	
+		
+		
+		
+</head>
+
+<body>
+		<!-- start: Header -->
+	{include header.tpl}
+	<!-- start: Header -->
+	
+		<div class="container-fluid-full">
+		<div class="row-fluid">
+				
+			<!-- start: Main Menu -->
+			{include menu.tpl}
+			<!-- end: Main Menu -->
+			
+			<noscript>
+				<div class="alert alert-block span10">
+					<h4 class="alert-heading">Warning!</h4>
+					<p>You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> enabled to use this site.</p>
+				</div>
+			</noscript>
+			
+			<!-- start: Content -->
+			<div id="content" class="span10">
+			
+			
+			<ul class="breadcrumb">
+				<li>
+					<i class="icon-home"></i>
+					<a href="index.html">Home</a> 
+					<i class="icon-angle-right"></i>
+				</li>
+				<li><a href="#">事業者コード登録</a></li>
+			</ul>
+
+
+			<div class="row-fluid sortable">
+				<div class="box span6">
+					<div class="box-header">
+						<h2><i class="halflings-icon align-justify"></i><span class="break"></span>事業者コード登録</h2>
+					</div>
+					<div class="box-content">
+						<form class="form-horizontal" action="./?act=gs_regist" name="form1" id="form1" method="post">
+						<input type="hidden" name="mode" value="new">
+						<fieldset>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者名 </label>
+							  <div class="controls">
+								<input type="text" name="name" class="span6 typeahead" id="name" ><br />
+								<span style="color:red;">※事業者毎の登録になります。</span>
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード1 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code1" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード2 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code2" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード3 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code3" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード4 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code4" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード5 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code5" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード6 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code6" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード7 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code7" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード8 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code8" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード9 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code9" >
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">事業者コード10 </label>
+							  <div class="controls">
+								<input type="text" name="code[]" class="span6 typeahead" id="code10" >
+							  </div>
+							</div>
+						
+							<div class="form-actions">
+							  <button type="button" id="btn" class="btn btn-primary">　登　録　</button>
+							</div>
+						  </fieldset>
+						</form>
+					</div>
+				</div><!--/span-->
+				
+
+	</div><!--/.fluid-container-->
+	
+			<!-- end: Content -->
+		</div><!--/#content.span10-->
+		</div><!--/fluid-row-->
+		
+
+	
+	<div class="clearfix"></div>
+	{include footer.tpl}
+	
+{include script.tpl}
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#btn').click(function() {
+        $('#form1').submit();
+    });
+});
+</script>
+</body>
+</html>
